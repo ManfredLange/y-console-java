@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-bullseye
+FROM openjdk:17.0.1-bullseye
 # To check for newer JDK versions, see https://openjdk.java.net/, then 
 # https://hub.docker.com/_/openjdk. Last check on 16 jan 2022 [Manfred, 16jan2022]
 
