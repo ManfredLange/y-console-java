@@ -19,6 +19,8 @@ RUN apt-get install -y openjdk-17-jdk
 # You can safely remove the packages you don't want. [Manfred, 08oct2021]
 
 # Install latest stable release of git:
+RUN apt update
+RUN apt -y install software-properties-common dirmngr apt-transport-https lsb-release ca-certificates
 RUN add-apt-repository ppa:git-core/ppa
 RUN apt-get update
 RUN apt install -y git
