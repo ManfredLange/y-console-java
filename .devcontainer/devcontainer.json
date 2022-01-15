@@ -1,0 +1,17 @@
+{
+    "name": "yannick-console",
+    "dockerComposeFile": [
+       "docker-compose.yml"
+    ],
+    "service": "console",
+    "workspaceFolder": "/src",
+    "extensions": [
+       "eamodio.gitlens",
+       "editorconfig.editorconfig",
+       "shd101wyy.markdown-preview-enhanced",
+       "vscjava.vscode-java-pack"
+    ],
+    "remoteUser": "dev",
+    "shutdownAction": "stopCompose"
+ }
+ 
